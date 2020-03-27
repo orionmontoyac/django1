@@ -1,5 +1,17 @@
 {% extends 'core/header.html' %}
+
 {%block title%} About {% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg'%}{%endblock%}
+
 {% block content %}
 <h1>About me Orion Montoya C</h1>
+{% endblock %}
+
+{% block headers %}
+<h1>About Me</h1>
+<span class="subheading">
+    “Nature never appeals to intelligence until habit and instinct are useless. There is no intelligence where there is
+    no need of change.”
+    <br> ― H.G. Wells, The Time Machine </span>
 {% endblock %}

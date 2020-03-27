@@ -1,5 +1,16 @@
 {% extends 'core/header.html' %}
+
 {%block title%} Home {% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg'%}{%endblock%}
+
 {% block content %}
 <h1>Web personal</h1>
+{% endblock %}
+
+{% block headers %}
+<h1>Orion Montoya C</h1>
+<span class="subheading">
+    “We all have our time machines, don't we. Those that take us back are memories...And those that carry us forward, are dreams.”
+    <br>― H.G. Wells </span>
 {% endblock %}

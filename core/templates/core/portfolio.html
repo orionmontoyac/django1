@@ -1,5 +1,16 @@
 {% extends 'core/header.html' %}
+
 {%block title%} Portfolio {% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/portfolio-bg.jpg'%}{%endblock%}
+
 {% block content %}
 <h1>Portfolio</h1>
+{% endblock %}
+
+{% block headers %}
+<h1>Portfolio</h1>
+<span class="subheading">
+    “Human history becomes more and more a race between education and catastrophe.”
+    <br> ― H.G. Wells </span>
 {% endblock %}
