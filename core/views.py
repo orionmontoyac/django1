@@ -6,8 +6,6 @@ def home(request):
 def about(request):
     return HttpResponse(render(request, "core/about.html"))
 
-def portfolio(request):
-    return HttpResponse(render(request, "core/portfolio.html"))
 
 def contact(request):
     return HttpResponse(render(request, "core/contact.html"))
